@@ -1,0 +1,10 @@
+{% extends "HelloBundle::layout.html.twig" %}
+
+{% block content %}
+<div>{{ info }}</div>
+<form name="userProfile" action="#" method="post">
+  {{ form_field(form) }}
+
+  <input type="submit" value="Save" />
+</form>
+{% endblock %}

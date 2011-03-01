@@ -1,0 +1,761 @@
+2011-02-24T23:57:21+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-02-24T23:57:21+01:00 DEBUG: Notified event "core.exception" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleException" (notifyUntil)
+2011-02-24T23:57:21+01:00 DEBUG: Notified event "core.exception" to listener "Symfony\Component\HttpKernel\Debug\ExceptionListener::handle" (notifyUntil)
+2011-02-24T23:57:21+01:00 ERR: InvalidArgumentException: URL "" is not valid (it does not start with a /). (uncaught exception)
+2011-02-24T23:57:21+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-02-24T23:57:21+01:00 INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction"
+2011-02-24T23:57:21+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-02-24T23:57:21+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-02-24T23:57:21+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-02-24T23:57:21+01:00 DEBUG: Listener "Symfony\Component\HttpKernel\Debug\ExceptionListener::handle" processed the event "core.exception"
+2011-02-24T23:57:21+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-02-24T23:57:21+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-02-24T23:57:22+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-02-24T23:57:23+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-02-24T23:57:23+01:00 INFO: Matched route "_wdt" (parameters: {"_controller":"Symfony\\Bundle\\WebProfilerBundle\\Controller\\ProfilerController::toolbarAction","token":"4d66e2515e2fa","_route":"_wdt"})
+2011-02-24T23:57:23+01:00 INFO: Using controller "Symfony\Bundle\WebProfilerBundle\Controller\ProfilerController::toolbarAction"
+2011-02-24T23:57:23+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-02-24T23:57:23+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-02-24T23:57:23+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-02-24T23:58:07+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-02-24T23:58:07+01:00 ERR: No route found for /hello
+2011-02-24T23:58:07+01:00 ERR: Unable to look for the controller as the "_controller" parameter is missing
+2011-02-24T23:58:07+01:00 DEBUG: Notified event "core.exception" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleException" (notifyUntil)
+2011-02-24T23:58:07+01:00 DEBUG: Notified event "core.exception" to listener "Symfony\Component\HttpKernel\Debug\ExceptionListener::handle" (notifyUntil)
+2011-02-24T23:58:07+01:00 ERR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: Unable to find the controller for path "/hello". Maybe you forgot to add the matching route in your routing configuration? (uncaught exception)
+2011-02-24T23:58:07+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-02-24T23:58:07+01:00 INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction"
+2011-02-24T23:58:07+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-02-24T23:58:07+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-02-24T23:58:07+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-02-24T23:58:07+01:00 DEBUG: Listener "Symfony\Component\HttpKernel\Debug\ExceptionListener::handle" processed the event "core.exception"
+2011-02-24T23:58:07+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-02-24T23:58:07+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-02-24T23:58:07+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-02-24T23:58:07+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-02-24T23:58:07+01:00 INFO: Matched route "_wdt" (parameters: {"_controller":"Symfony\\Bundle\\WebProfilerBundle\\Controller\\ProfilerController::toolbarAction","token":"4d66e27f8dccf","_route":"_wdt"})
+2011-02-24T23:58:07+01:00 INFO: Using controller "Symfony\Bundle\WebProfilerBundle\Controller\ProfilerController::toolbarAction"
+2011-02-24T23:58:07+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-02-24T23:58:07+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-02-24T23:58:07+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-02-24T23:58:20+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-02-24T23:58:20+01:00 INFO: Matched route "hello" (parameters: {"_controller":"Sensio\\HelloBundle\\Controller\\HelloController::indexAction","name":"index","_route":"hello"})
+2011-02-24T23:58:20+01:00 INFO: Using controller "Sensio\HelloBundle\Controller\HelloController::indexAction"
+2011-02-24T23:58:20+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-02-24T23:58:20+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-02-24T23:58:20+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-02-24T23:58:20+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-02-24T23:58:20+01:00 INFO: Matched route "_wdt" (parameters: {"_controller":"Symfony\\Bundle\\WebProfilerBundle\\Controller\\ProfilerController::toolbarAction","token":"4d66e28c7b2df","_route":"_wdt"})
+2011-02-24T23:58:20+01:00 INFO: Using controller "Symfony\Bundle\WebProfilerBundle\Controller\ProfilerController::toolbarAction"
+2011-02-24T23:58:20+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-02-24T23:58:20+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-02-24T23:58:20+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T00:05:10+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T00:05:10+01:00 INFO: Matched route "homepage" (parameters: {"_controller":"Symfony\\Bundle\\FrameworkBundle\\Controller\\RedirectController::urlRedirectAction","url":"\/app_dev.php\/","permanent":true,"_route":"homepage"})
+2011-03-01T00:05:10+01:00 INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\RedirectController::urlRedirectAction"
+2011-03-01T00:05:10+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T00:05:10+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T00:05:10+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T00:05:12+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T00:05:12+01:00 INFO: Matched route "_wdt" (parameters: {"_controller":"Symfony\\Bundle\\WebProfilerBundle\\Controller\\ProfilerController::toolbarAction","token":"4d6c2a2667224","_route":"_wdt"})
+2011-03-01T00:05:12+01:00 INFO: Using controller "Symfony\Bundle\WebProfilerBundle\Controller\ProfilerController::toolbarAction"
+2011-03-01T00:05:12+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T00:05:12+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T00:05:12+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T00:05:28+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T00:05:28+01:00 INFO: Matched route "hello" (parameters: {"_controller":"Sensio\\HelloBundle\\Controller\\HelloController::indexAction","name":"lelo","_route":"hello"})
+2011-03-01T00:05:28+01:00 INFO: Using controller "Sensio\HelloBundle\Controller\HelloController::indexAction"
+2011-03-01T00:05:28+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T00:05:28+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T00:05:28+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T00:05:28+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T00:05:28+01:00 INFO: Matched route "_wdt" (parameters: {"_controller":"Symfony\\Bundle\\WebProfilerBundle\\Controller\\ProfilerController::toolbarAction","token":"4d6c2a388fb59","_route":"_wdt"})
+2011-03-01T00:05:28+01:00 INFO: Using controller "Symfony\Bundle\WebProfilerBundle\Controller\ProfilerController::toolbarAction"
+2011-03-01T00:05:28+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T00:05:28+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T00:05:28+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T00:05:35+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T00:05:35+01:00 INFO: Matched route "user_profile" (parameters: {"_controller":"Sensio\\HelloBundle\\Controller\\UserController::profileEditFormAction","slug":"l3l0","_route":"user_profile"})
+2011-03-01T00:05:35+01:00 INFO: Using controller "Sensio\HelloBundle\Controller\UserController::profileEditFormAction"
+2011-03-01T00:05:35+01:00 INFO: MongoDB query: { "find": true, "query": { "slug": "l3l0" }, "fields": [ ], "db": "symfony_prod", "collection": "users" }
+2011-03-01T00:05:35+01:00 DEBUG: Notified event "core.exception" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleException" (notifyUntil)
+2011-03-01T00:05:35+01:00 DEBUG: Notified event "core.exception" to listener "Symfony\Component\HttpKernel\Debug\ExceptionListener::handle" (notifyUntil)
+2011-03-01T00:05:35+01:00 ERR: Symfony\Component\Form\Exception\FormException: The data class must be set to automatically create fields (uncaught exception)
+2011-03-01T00:05:35+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T00:05:35+01:00 INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction"
+2011-03-01T00:05:36+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T00:05:36+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T00:05:36+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T00:05:36+01:00 DEBUG: Listener "Symfony\Component\HttpKernel\Debug\ExceptionListener::handle" processed the event "core.exception"
+2011-03-01T00:05:36+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T00:05:36+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T00:05:36+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T00:05:36+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T00:05:36+01:00 INFO: Matched route "_wdt" (parameters: {"_controller":"Symfony\\Bundle\\WebProfilerBundle\\Controller\\ProfilerController::toolbarAction","token":"4d6c2a401e149","_route":"_wdt"})
+2011-03-01T00:05:36+01:00 INFO: Using controller "Symfony\Bundle\WebProfilerBundle\Controller\ProfilerController::toolbarAction"
+2011-03-01T00:05:36+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T00:05:36+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T00:05:36+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T00:08:41+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T00:08:41+01:00 INFO: Matched route "user_profile" (parameters: {"_controller":"Sensio\\HelloBundle\\Controller\\UserController::profileEditFormAction","slug":"l3l0","_route":"user_profile"})
+2011-03-01T00:08:41+01:00 INFO: Using controller "Sensio\HelloBundle\Controller\UserController::profileEditFormAction"
+2011-03-01T00:08:41+01:00 INFO: MongoDB query: { "find": true, "query": { "slug": "l3l0" }, "fields": [ ], "db": "symfony_prod", "collection": "users" }
+2011-03-01T00:08:41+01:00 DEBUG: Notified event "core.exception" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleException" (notifyUntil)
+2011-03-01T00:08:41+01:00 DEBUG: Notified event "core.exception" to listener "Symfony\Component\HttpKernel\Debug\ExceptionListener::handle" (notifyUntil)
+2011-03-01T00:08:41+01:00 ERR: Symfony\Component\Form\Exception\FormException: The data class must be set to automatically create fields (uncaught exception)
+2011-03-01T00:08:41+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T00:08:41+01:00 INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction"
+2011-03-01T00:08:41+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T00:08:41+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T00:08:41+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T00:08:41+01:00 DEBUG: Listener "Symfony\Component\HttpKernel\Debug\ExceptionListener::handle" processed the event "core.exception"
+2011-03-01T00:08:41+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T00:08:41+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T00:08:41+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T00:08:41+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T00:08:41+01:00 INFO: Matched route "_wdt" (parameters: {"_controller":"Symfony\\Bundle\\WebProfilerBundle\\Controller\\ProfilerController::toolbarAction","token":"4d6c2af94eeb3","_route":"_wdt"})
+2011-03-01T00:08:41+01:00 INFO: Using controller "Symfony\Bundle\WebProfilerBundle\Controller\ProfilerController::toolbarAction"
+2011-03-01T00:08:41+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T00:08:41+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T00:08:41+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T00:15:05+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T00:15:05+01:00 INFO: Matched route "user_profile" (parameters: {"_controller":"Sensio\\HelloBundle\\Controller\\UserController::profileEditFormAction","slug":"l3l0","_route":"user_profile"})
+2011-03-01T00:15:05+01:00 INFO: Using controller "Sensio\HelloBundle\Controller\UserController::profileEditFormAction"
+2011-03-01T00:15:05+01:00 INFO: MongoDB query: { "find": true, "query": { "slug": "l3l0" }, "fields": [ ], "db": "symfony_prod", "collection": "users" }
+2011-03-01T00:15:05+01:00 DEBUG: Notified event "core.exception" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleException" (notifyUntil)
+2011-03-01T00:15:05+01:00 DEBUG: Notified event "core.exception" to listener "Symfony\Component\HttpKernel\Debug\ExceptionListener::handle" (notifyUntil)
+2011-03-01T00:15:05+01:00 ERR: Symfony\Component\Form\Exception\FormException: The data class must be set to automatically create fields (uncaught exception)
+2011-03-01T00:15:05+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T00:15:05+01:00 INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction"
+2011-03-01T00:15:05+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T00:15:05+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T00:15:05+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T00:15:05+01:00 DEBUG: Listener "Symfony\Component\HttpKernel\Debug\ExceptionListener::handle" processed the event "core.exception"
+2011-03-01T00:15:05+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T00:15:05+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T00:15:05+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T00:15:05+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T00:15:05+01:00 INFO: Matched route "_wdt" (parameters: {"_controller":"Symfony\\Bundle\\WebProfilerBundle\\Controller\\ProfilerController::toolbarAction","token":"4d6c2c7942ae9","_route":"_wdt"})
+2011-03-01T00:15:05+01:00 INFO: Using controller "Symfony\Bundle\WebProfilerBundle\Controller\ProfilerController::toolbarAction"
+2011-03-01T00:15:05+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T00:15:05+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T00:15:05+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T00:15:51+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T00:15:51+01:00 INFO: Matched route "user_profile" (parameters: {"_controller":"Sensio\\HelloBundle\\Controller\\UserController::profileEditFormAction","slug":"l3l0","_route":"user_profile"})
+2011-03-01T00:15:51+01:00 INFO: Using controller "Sensio\HelloBundle\Controller\UserController::profileEditFormAction"
+2011-03-01T00:15:51+01:00 INFO: MongoDB query: { "find": true, "query": { "slug": "l3l0" }, "fields": [ ], "db": "symfony_prod", "collection": "users" }
+2011-03-01T00:17:55+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T00:17:55+01:00 INFO: Matched route "user_profile" (parameters: {"_controller":"Sensio\\HelloBundle\\Controller\\UserController::profileEditFormAction","slug":"l3l0","_route":"user_profile"})
+2011-03-01T00:17:55+01:00 INFO: Using controller "Sensio\HelloBundle\Controller\UserController::profileEditFormAction"
+2011-03-01T00:17:55+01:00 INFO: MongoDB query: { "find": true, "query": { "slug": "l3l0" }, "fields": [ ], "db": "symfony_prod", "collection": "users" }
+2011-03-01T00:18:31+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T00:18:31+01:00 INFO: Matched route "user_profile" (parameters: {"_controller":"Sensio\\HelloBundle\\Controller\\UserController::profileEditFormAction","slug":"l3l0","_route":"user_profile"})
+2011-03-01T00:18:31+01:00 INFO: Using controller "Sensio\HelloBundle\Controller\UserController::profileEditFormAction"
+2011-03-01T00:18:31+01:00 INFO: MongoDB query: { "find": true, "query": { "slug": "l3l0" }, "fields": [ ], "db": "symfony_prod", "collection": "users" }
+2011-03-01T00:18:44+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T00:18:44+01:00 INFO: Matched route "user_profile" (parameters: {"_controller":"Sensio\\HelloBundle\\Controller\\UserController::profileEditFormAction","slug":"l3l0","_route":"user_profile"})
+2011-03-01T00:18:44+01:00 INFO: Using controller "Sensio\HelloBundle\Controller\UserController::profileEditFormAction"
+2011-03-01T00:18:44+01:00 INFO: MongoDB query: { "find": true, "query": { "slug": "l3l0" }, "fields": [ ], "db": "symfony_prod", "collection": "users" }
+2011-03-01T00:19:00+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T00:19:00+01:00 INFO: Matched route "user_profile" (parameters: {"_controller":"Sensio\\HelloBundle\\Controller\\UserController::profileEditFormAction","slug":"l3l0","_route":"user_profile"})
+2011-03-01T00:19:00+01:00 INFO: Using controller "Sensio\HelloBundle\Controller\UserController::profileEditFormAction"
+2011-03-01T00:19:00+01:00 INFO: MongoDB query: { "find": true, "query": { "slug": "l3l0" }, "fields": [ ], "db": "symfony_prod", "collection": "users" }
+2011-03-01T00:19:26+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T00:19:26+01:00 INFO: Matched route "user_profile" (parameters: {"_controller":"Sensio\\HelloBundle\\Controller\\UserController::profileEditFormAction","slug":"l3l0","_route":"user_profile"})
+2011-03-01T00:19:26+01:00 INFO: Using controller "Sensio\HelloBundle\Controller\UserController::profileEditFormAction"
+2011-03-01T00:19:26+01:00 DEBUG: Notified event "core.exception" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleException" (notifyUntil)
+2011-03-01T00:19:26+01:00 DEBUG: Notified event "core.exception" to listener "Symfony\Component\HttpKernel\Debug\ExceptionListener::handle" (notifyUntil)
+2011-03-01T00:19:26+01:00 ERR: Symfony\Component\Form\Exception\FormException: The data class must be set to automatically create fields (uncaught exception)
+2011-03-01T00:19:26+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T00:19:26+01:00 INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction"
+2011-03-01T00:19:26+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T00:19:26+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T00:19:26+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T00:19:26+01:00 DEBUG: Listener "Symfony\Component\HttpKernel\Debug\ExceptionListener::handle" processed the event "core.exception"
+2011-03-01T00:19:26+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T00:19:26+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T00:19:26+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T00:19:27+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T00:19:27+01:00 INFO: Matched route "_wdt" (parameters: {"_controller":"Symfony\\Bundle\\WebProfilerBundle\\Controller\\ProfilerController::toolbarAction","token":"4d6c2d7ebd85e","_route":"_wdt"})
+2011-03-01T00:19:27+01:00 INFO: Using controller "Symfony\Bundle\WebProfilerBundle\Controller\ProfilerController::toolbarAction"
+2011-03-01T00:19:27+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T00:19:27+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T00:19:27+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T00:20:05+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T00:20:05+01:00 INFO: Matched route "user_profile" (parameters: {"_controller":"Sensio\\HelloBundle\\Controller\\UserController::profileEditFormAction","slug":"l3l0","_route":"user_profile"})
+2011-03-01T00:20:05+01:00 INFO: Using controller "Sensio\HelloBundle\Controller\UserController::profileEditFormAction"
+2011-03-01T00:20:05+01:00 INFO: MongoDB query: { "find": true, "query": { "slug": "l3l0" }, "fields": [ ], "db": "symfony_prod", "collection": "users" }
+2011-03-01T00:23:51+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T00:23:51+01:00 INFO: Matched route "user_profile" (parameters: {"_controller":"Sensio\\HelloBundle\\Controller\\UserController::profileEditFormAction","slug":"l3l0","_route":"user_profile"})
+2011-03-01T00:23:51+01:00 INFO: Using controller "Sensio\HelloBundle\Controller\UserController::profileEditFormAction"
+2011-03-01T00:24:05+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T00:24:05+01:00 INFO: Matched route "user_profile" (parameters: {"_controller":"Sensio\\HelloBundle\\Controller\\UserController::profileEditFormAction","slug":"l3l0","_route":"user_profile"})
+2011-03-01T00:24:05+01:00 INFO: Using controller "Sensio\HelloBundle\Controller\UserController::profileEditFormAction"
+2011-03-01T00:24:05+01:00 INFO: MongoDB query: { "find": true, "query": { "slug": "l3l0" }, "fields": [ ], "db": "symfony_prod", "collection": "users" }
+2011-03-01T00:29:06+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T00:29:06+01:00 INFO: Matched route "user_profile" (parameters: {"_controller":"Sensio\\HelloBundle\\Controller\\UserController::profileEditFormAction","slug":"l3l0","_route":"user_profile"})
+2011-03-01T00:29:06+01:00 INFO: Using controller "Sensio\HelloBundle\Controller\UserController::profileEditFormAction"
+2011-03-01T00:29:07+01:00 INFO: MongoDB query: { "find": true, "query": { "slug": "l3l0" }, "fields": [ ], "db": "symfony_prod", "collection": "users" }
+2011-03-01T00:33:53+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T00:33:53+01:00 INFO: Matched route "user_profile" (parameters: {"_controller":"Sensio\\HelloBundle\\Controller\\UserController::profileEditFormAction","slug":"l3l0","_route":"user_profile"})
+2011-03-01T00:33:53+01:00 INFO: Using controller "Sensio\HelloBundle\Controller\UserController::profileEditFormAction"
+2011-03-01T00:33:53+01:00 INFO: MongoDB query: { "find": true, "query": { "slug": "l3l0" }, "fields": [ ], "db": "symfony_prod", "collection": "users" }
+2011-03-01T00:33:53+01:00 DEBUG: Notified event "core.exception" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleException" (notifyUntil)
+2011-03-01T00:33:53+01:00 DEBUG: Notified event "core.exception" to listener "Symfony\Component\HttpKernel\Debug\ExceptionListener::handle" (notifyUntil)
+2011-03-01T00:33:53+01:00 ERR: Symfony\Component\Form\Exception\FormException: A field factory must be set to automatically create fields (uncaught exception)
+2011-03-01T00:33:53+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T00:33:53+01:00 INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction"
+2011-03-01T00:33:53+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T00:33:53+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T00:33:53+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T00:33:53+01:00 DEBUG: Listener "Symfony\Component\HttpKernel\Debug\ExceptionListener::handle" processed the event "core.exception"
+2011-03-01T00:33:53+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T00:33:53+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T00:33:53+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T00:33:54+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T00:33:54+01:00 INFO: Matched route "_wdt" (parameters: {"_controller":"Symfony\\Bundle\\WebProfilerBundle\\Controller\\ProfilerController::toolbarAction","token":"4d6c30e190d12","_route":"_wdt"})
+2011-03-01T00:33:54+01:00 INFO: Using controller "Symfony\Bundle\WebProfilerBundle\Controller\ProfilerController::toolbarAction"
+2011-03-01T00:33:54+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T00:33:54+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T00:33:54+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T00:45:05+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T00:45:05+01:00 INFO: Matched route "hello" (parameters: {"_controller":"Sensio\\HelloBundle\\Controller\\HelloController::indexAction","name":"lelo","_route":"hello"})
+2011-03-01T00:45:05+01:00 INFO: Using controller "Sensio\HelloBundle\Controller\HelloController::indexAction"
+2011-03-01T00:45:05+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T00:45:05+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T00:45:05+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T00:45:05+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T00:45:05+01:00 INFO: Matched route "_wdt" (parameters: {"_controller":"Symfony\\Bundle\\WebProfilerBundle\\Controller\\ProfilerController::toolbarAction","token":"4d6c338176ebb","_route":"_wdt"})
+2011-03-01T00:45:05+01:00 INFO: Using controller "Symfony\Bundle\WebProfilerBundle\Controller\ProfilerController::toolbarAction"
+2011-03-01T00:45:05+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T00:45:05+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T00:45:05+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T00:45:10+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T00:45:10+01:00 INFO: Matched route "user_profile" (parameters: {"_controller":"Sensio\\HelloBundle\\Controller\\UserController::profileEditFormAction","slug":"l3l0","_route":"user_profile"})
+2011-03-01T00:45:10+01:00 INFO: Using controller "Sensio\HelloBundle\Controller\UserController::profileEditFormAction"
+2011-03-01T00:45:10+01:00 INFO: MongoDB query: { "find": true, "query": { "slug": "l3l0" }, "fields": [ ], "db": "symfony_prod", "collection": "users" }
+2011-03-01T00:45:17+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T00:45:17+01:00 INFO: Matched route "user_profile" (parameters: {"_controller":"Sensio\\HelloBundle\\Controller\\UserController::profileEditFormAction","slug":"l3l0","_route":"user_profile"})
+2011-03-01T00:45:17+01:00 INFO: Using controller "Sensio\HelloBundle\Controller\UserController::profileEditFormAction"
+2011-03-01T00:45:17+01:00 INFO: MongoDB query: { "find": true, "query": { "slug": "l3l0" }, "fields": [ ], "db": "symfony_prod", "collection": "users" }
+2011-03-01T00:54:35+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T00:54:35+01:00 INFO: Matched route "user_profile" (parameters: {"_controller":"Sensio\\HelloBundle\\Controller\\UserController::profileEditFormAction","slug":"l3l0","_route":"user_profile"})
+2011-03-01T00:54:35+01:00 INFO: Using controller "Sensio\HelloBundle\Controller\UserController::profileEditFormAction"
+2011-03-01T00:54:35+01:00 INFO: MongoDB query: { "find": true, "query": { "slug": "l3l0" }, "fields": [ ], "db": "symfony_prod", "collection": "users" }
+2011-03-01T00:56:05+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T00:56:05+01:00 INFO: Matched route "user_profile" (parameters: {"_controller":"Sensio\\HelloBundle\\Controller\\UserController::profileEditFormAction","slug":"l3l0","_route":"user_profile"})
+2011-03-01T00:56:05+01:00 INFO: Using controller "Sensio\HelloBundle\Controller\UserController::profileEditFormAction"
+2011-03-01T00:56:05+01:00 INFO: MongoDB query: { "find": true, "query": { "slug": "l3l0" }, "fields": [ ], "db": "symfony_prod", "collection": "users" }
+2011-03-01T01:00:18+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T01:00:18+01:00 INFO: Matched route "user_profile" (parameters: {"_controller":"Sensio\\HelloBundle\\Controller\\UserController::profileEditFormAction","slug":"l3l0","_route":"user_profile"})
+2011-03-01T01:00:18+01:00 INFO: Using controller "Sensio\HelloBundle\Controller\UserController::profileEditFormAction"
+2011-03-01T01:00:18+01:00 INFO: MongoDB query: { "find": true, "query": { "slug": "l3l0" }, "fields": [ ], "db": "symfony_prod", "collection": "users" }
+2011-03-01T01:00:18+01:00 DEBUG: Notified event "core.exception" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleException" (notifyUntil)
+2011-03-01T01:00:18+01:00 DEBUG: Notified event "core.exception" to listener "Symfony\Component\HttpKernel\Debug\ExceptionListener::handle" (notifyUntil)
+2011-03-01T01:00:18+01:00 ERR: Symfony\Component\Form\Exception\PropertyAccessDeniedException: Property "email" is not public in class "Sensio\HelloBundle\Document\User". Maybe you should create the method "getEmail()" or "isEmail()"? (uncaught exception)
+2011-03-01T01:00:18+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T01:00:18+01:00 INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction"
+2011-03-01T01:00:18+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T01:00:18+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T01:00:18+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T01:00:18+01:00 DEBUG: Listener "Symfony\Component\HttpKernel\Debug\ExceptionListener::handle" processed the event "core.exception"
+2011-03-01T01:00:18+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T01:00:18+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T01:00:18+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T01:00:18+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T01:00:18+01:00 INFO: Matched route "_wdt" (parameters: {"_controller":"Symfony\\Bundle\\WebProfilerBundle\\Controller\\ProfilerController::toolbarAction","token":"4d6c371260a10","_route":"_wdt"})
+2011-03-01T01:00:18+01:00 INFO: Using controller "Symfony\Bundle\WebProfilerBundle\Controller\ProfilerController::toolbarAction"
+2011-03-01T01:00:18+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T01:00:18+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T01:00:18+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T01:01:38+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T01:01:38+01:00 INFO: Matched route "user_profile" (parameters: {"_controller":"Sensio\\HelloBundle\\Controller\\UserController::profileEditFormAction","slug":"l3l0","_route":"user_profile"})
+2011-03-01T01:01:38+01:00 INFO: Using controller "Sensio\HelloBundle\Controller\UserController::profileEditFormAction"
+2011-03-01T01:01:38+01:00 INFO: MongoDB query: { "find": true, "query": { "slug": "l3l0" }, "fields": [ ], "db": "symfony_prod", "collection": "users" }
+2011-03-01T01:01:38+01:00 DEBUG: Notified event "core.exception" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleException" (notifyUntil)
+2011-03-01T01:01:38+01:00 DEBUG: Notified event "core.exception" to listener "Symfony\Component\HttpKernel\Debug\ExceptionListener::handle" (notifyUntil)
+2011-03-01T01:01:38+01:00 ERR: InvalidArgumentException: Template name "HelloBundle:User:profileEditForm" is not valid (format is "bundle:section:template.format.engine"). (uncaught exception)
+2011-03-01T01:01:38+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T01:01:38+01:00 INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction"
+2011-03-01T01:01:38+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T01:01:38+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T01:01:38+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T01:01:38+01:00 DEBUG: Listener "Symfony\Component\HttpKernel\Debug\ExceptionListener::handle" processed the event "core.exception"
+2011-03-01T01:01:38+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T01:01:38+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T01:01:38+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T01:01:39+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T01:01:39+01:00 INFO: Matched route "_wdt" (parameters: {"_controller":"Symfony\\Bundle\\WebProfilerBundle\\Controller\\ProfilerController::toolbarAction","token":"4d6c37628b211","_route":"_wdt"})
+2011-03-01T01:01:39+01:00 INFO: Using controller "Symfony\Bundle\WebProfilerBundle\Controller\ProfilerController::toolbarAction"
+2011-03-01T01:01:39+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T01:01:39+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T01:01:39+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T01:02:45+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T01:02:45+01:00 INFO: Matched route "user_profile" (parameters: {"_controller":"Sensio\\HelloBundle\\Controller\\UserController::profileEditFormAction","slug":"l3l0","_route":"user_profile"})
+2011-03-01T01:02:45+01:00 INFO: Using controller "Sensio\HelloBundle\Controller\UserController::profileEditFormAction"
+2011-03-01T01:02:45+01:00 INFO: MongoDB query: { "find": true, "query": { "slug": "l3l0" }, "fields": [ ], "db": "symfony_prod", "collection": "users" }
+2011-03-01T01:02:45+01:00 DEBUG: Notified event "core.exception" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleException" (notifyUntil)
+2011-03-01T01:02:45+01:00 DEBUG: Notified event "core.exception" to listener "Symfony\Component\HttpKernel\Debug\ExceptionListener::handle" (notifyUntil)
+2011-03-01T01:02:45+01:00 ERR: Twig_Error_Syntax: A template that extends another one cannot have a body (Twig_Node_Text(data: '<form name="userProfile" action="#" method="post">  ')). in "HelloBundle:User:profileEditForm.html.twig" at line 2 (uncaught exception)
+2011-03-01T01:02:45+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T01:02:45+01:00 INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction"
+2011-03-01T01:02:45+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T01:02:45+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T01:02:45+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T01:02:45+01:00 DEBUG: Listener "Symfony\Component\HttpKernel\Debug\ExceptionListener::handle" processed the event "core.exception"
+2011-03-01T01:02:45+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T01:02:45+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T01:02:45+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T01:02:46+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T01:02:46+01:00 INFO: Matched route "_wdt" (parameters: {"_controller":"Symfony\\Bundle\\WebProfilerBundle\\Controller\\ProfilerController::toolbarAction","token":"4d6c37a5b31ec","_route":"_wdt"})
+2011-03-01T01:02:46+01:00 INFO: Using controller "Symfony\Bundle\WebProfilerBundle\Controller\ProfilerController::toolbarAction"
+2011-03-01T01:02:46+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T01:02:46+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T01:02:46+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T01:03:30+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T01:03:30+01:00 INFO: Matched route "user_profile" (parameters: {"_controller":"Sensio\\HelloBundle\\Controller\\UserController::profileEditFormAction","slug":"l3l0","_route":"user_profile"})
+2011-03-01T01:03:30+01:00 INFO: Using controller "Sensio\HelloBundle\Controller\UserController::profileEditFormAction"
+2011-03-01T01:03:30+01:00 INFO: MongoDB query: { "find": true, "query": { "slug": "l3l0" }, "fields": [ ], "db": "symfony_prod", "collection": "users" }
+2011-03-01T01:03:31+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T01:03:31+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T01:03:31+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T01:06:40+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T01:06:40+01:00 INFO: Matched route "user_profile" (parameters: {"_controller":"Sensio\\HelloBundle\\Controller\\UserController::profileEditFormAction","slug":"l3l0","_route":"user_profile"})
+2011-03-01T01:06:40+01:00 INFO: Using controller "Sensio\HelloBundle\Controller\UserController::profileEditFormAction"
+2011-03-01T01:06:40+01:00 INFO: MongoDB query: { "find": true, "query": { "slug": "l3l0" }, "fields": [ ], "db": "symfony_prod", "collection": "users" }
+2011-03-01T01:06:40+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T01:06:40+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T01:06:41+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T01:06:41+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T01:06:41+01:00 INFO: Matched route "_wdt" (parameters: {"_controller":"Symfony\\Bundle\\WebProfilerBundle\\Controller\\ProfilerController::toolbarAction","token":"4d6c3890b7892","_route":"_wdt"})
+2011-03-01T01:06:41+01:00 INFO: Using controller "Symfony\Bundle\WebProfilerBundle\Controller\ProfilerController::toolbarAction"
+2011-03-01T01:06:41+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T01:06:41+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T01:06:41+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T11:28:47+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T11:28:47+01:00 INFO: Matched route "homepage" (parameters: {"_controller":"Symfony\\Bundle\\FrameworkBundle\\Controller\\RedirectController::urlRedirectAction","url":"\/app_dev.php\/","permanent":true,"_route":"homepage"})
+2011-03-01T11:28:47+01:00 INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\RedirectController::urlRedirectAction"
+2011-03-01T11:28:47+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T11:28:47+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T11:28:47+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T11:28:47+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T11:28:47+01:00 INFO: Matched route "_wdt" (parameters: {"_controller":"Symfony\\Bundle\\WebProfilerBundle\\Controller\\ProfilerController::toolbarAction","token":"4d6cca5f22fc1","_route":"_wdt"})
+2011-03-01T11:28:47+01:00 INFO: Using controller "Symfony\Bundle\WebProfilerBundle\Controller\ProfilerController::toolbarAction"
+2011-03-01T11:28:47+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T11:28:47+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T11:28:47+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T11:28:51+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T11:28:51+01:00 INFO: Matched route "hello" (parameters: {"_controller":"Sensio\\HelloBundle\\Controller\\HelloController::indexAction","name":"index","_route":"hello"})
+2011-03-01T11:28:51+01:00 INFO: Using controller "Sensio\HelloBundle\Controller\HelloController::indexAction"
+2011-03-01T11:28:51+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T11:28:51+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T11:28:51+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T11:28:51+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T11:28:51+01:00 INFO: Matched route "_wdt" (parameters: {"_controller":"Symfony\\Bundle\\WebProfilerBundle\\Controller\\ProfilerController::toolbarAction","token":"4d6cca636bc91","_route":"_wdt"})
+2011-03-01T11:28:51+01:00 INFO: Using controller "Symfony\Bundle\WebProfilerBundle\Controller\ProfilerController::toolbarAction"
+2011-03-01T11:28:51+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T11:28:51+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T11:28:51+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T11:29:00+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T11:29:00+01:00 INFO: Matched route "user_profile" (parameters: {"_controller":"Sensio\\HelloBundle\\Controller\\UserController::profileEditFormAction","slug":"l3l0","_route":"user_profile"})
+2011-03-01T11:29:00+01:00 INFO: Using controller "Sensio\HelloBundle\Controller\UserController::profileEditFormAction"
+2011-03-01T11:29:00+01:00 INFO: MongoDB query: { "find": true, "query": { "slug": "l3l0" }, "fields": [ ], "db": "symfony_prod", "collection": "users" }
+2011-03-01T11:29:00+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T11:29:00+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T11:29:00+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T11:29:00+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T11:29:00+01:00 INFO: Matched route "_wdt" (parameters: {"_controller":"Symfony\\Bundle\\WebProfilerBundle\\Controller\\ProfilerController::toolbarAction","token":"4d6cca6c93549","_route":"_wdt"})
+2011-03-01T11:29:00+01:00 INFO: Using controller "Symfony\Bundle\WebProfilerBundle\Controller\ProfilerController::toolbarAction"
+2011-03-01T11:29:00+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T11:29:00+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T11:29:00+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T11:29:05+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T11:29:05+01:00 INFO: Matched route "user_profile" (parameters: {"_controller":"Sensio\\HelloBundle\\Controller\\UserController::profileEditFormAction","slug":"l3l0","_route":"user_profile"})
+2011-03-01T11:29:05+01:00 INFO: Using controller "Sensio\HelloBundle\Controller\UserController::profileEditFormAction"
+2011-03-01T11:29:05+01:00 INFO: MongoDB query: { "find": true, "query": { "slug": "l3l0" }, "fields": [ ], "db": "symfony_prod", "collection": "users" }
+2011-03-01T11:29:05+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T11:29:05+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T11:29:05+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T11:29:05+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T11:29:05+01:00 INFO: Matched route "_wdt" (parameters: {"_controller":"Symfony\\Bundle\\WebProfilerBundle\\Controller\\ProfilerController::toolbarAction","token":"4d6cca716d087","_route":"_wdt"})
+2011-03-01T11:29:05+01:00 INFO: Using controller "Symfony\Bundle\WebProfilerBundle\Controller\ProfilerController::toolbarAction"
+2011-03-01T11:29:05+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T11:29:05+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T11:29:05+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T11:29:30+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T11:29:30+01:00 INFO: Matched route "user_profile" (parameters: {"_controller":"Sensio\\HelloBundle\\Controller\\UserController::profileEditFormAction","slug":"l3l0","_route":"user_profile"})
+2011-03-01T11:29:30+01:00 INFO: Using controller "Sensio\HelloBundle\Controller\UserController::profileEditFormAction"
+2011-03-01T11:29:30+01:00 INFO: MongoDB query: { "find": true, "query": { "slug": "l3l0" }, "fields": [ ], "db": "symfony_prod", "collection": "users" }
+2011-03-01T11:29:30+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T11:29:30+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T11:29:31+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T11:29:31+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T11:29:31+01:00 INFO: Matched route "_wdt" (parameters: {"_controller":"Symfony\\Bundle\\WebProfilerBundle\\Controller\\ProfilerController::toolbarAction","token":"4d6cca8acc4bb","_route":"_wdt"})
+2011-03-01T11:29:31+01:00 INFO: Using controller "Symfony\Bundle\WebProfilerBundle\Controller\ProfilerController::toolbarAction"
+2011-03-01T11:29:31+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T11:29:31+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T11:29:31+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T11:31:39+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T11:31:39+01:00 INFO: Matched route "user_profile" (parameters: {"_controller":"Sensio\\HelloBundle\\Controller\\UserController::profileEditFormAction","slug":"l3l0","_route":"user_profile"})
+2011-03-01T11:31:39+01:00 INFO: Using controller "Sensio\HelloBundle\Controller\UserController::profileEditFormAction"
+2011-03-01T11:31:39+01:00 INFO: MongoDB query: { "find": true, "query": { "slug": "l3l0" }, "fields": [ ], "db": "symfony_prod", "collection": "users" }
+2011-03-01T11:31:39+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T11:31:39+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T11:31:39+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T11:31:39+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T11:31:39+01:00 INFO: Matched route "_wdt" (parameters: {"_controller":"Symfony\\Bundle\\WebProfilerBundle\\Controller\\ProfilerController::toolbarAction","token":"4d6ccb0b35219","_route":"_wdt"})
+2011-03-01T11:31:39+01:00 INFO: Using controller "Symfony\Bundle\WebProfilerBundle\Controller\ProfilerController::toolbarAction"
+2011-03-01T11:31:39+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T11:31:39+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T11:31:39+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T11:32:08+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T11:32:08+01:00 INFO: Matched route "user_profile" (parameters: {"_controller":"Sensio\\HelloBundle\\Controller\\UserController::profileEditFormAction","slug":"l3l0","_route":"user_profile"})
+2011-03-01T11:32:08+01:00 INFO: Using controller "Sensio\HelloBundle\Controller\UserController::profileEditFormAction"
+2011-03-01T11:32:08+01:00 INFO: MongoDB query: { "find": true, "query": { "slug": "l3l0" }, "fields": [ ], "db": "symfony_prod", "collection": "users" }
+2011-03-01T11:32:08+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T11:32:08+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T11:32:08+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T11:32:08+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T11:32:08+01:00 INFO: Matched route "_wdt" (parameters: {"_controller":"Symfony\\Bundle\\WebProfilerBundle\\Controller\\ProfilerController::toolbarAction","token":"4d6ccb2877f84","_route":"_wdt"})
+2011-03-01T11:32:08+01:00 INFO: Using controller "Symfony\Bundle\WebProfilerBundle\Controller\ProfilerController::toolbarAction"
+2011-03-01T11:32:08+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T11:32:08+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T11:32:08+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T11:32:25+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T11:32:25+01:00 INFO: Matched route "user_profile" (parameters: {"_controller":"Sensio\\HelloBundle\\Controller\\UserController::profileEditFormAction","slug":"l3l0","_route":"user_profile"})
+2011-03-01T11:32:25+01:00 INFO: Using controller "Sensio\HelloBundle\Controller\UserController::profileEditFormAction"
+2011-03-01T11:32:25+01:00 INFO: MongoDB query: { "find": true, "query": { "slug": "l3l0" }, "fields": [ ], "db": "symfony_prod", "collection": "users" }
+2011-03-01T11:32:26+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T11:32:26+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T11:32:26+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T11:32:26+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T11:32:26+01:00 INFO: Matched route "_wdt" (parameters: {"_controller":"Symfony\\Bundle\\WebProfilerBundle\\Controller\\ProfilerController::toolbarAction","token":"4d6ccb3a2d5da","_route":"_wdt"})
+2011-03-01T11:32:26+01:00 INFO: Using controller "Symfony\Bundle\WebProfilerBundle\Controller\ProfilerController::toolbarAction"
+2011-03-01T11:32:26+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T11:32:26+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T11:32:26+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T11:32:45+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T11:32:45+01:00 INFO: Matched route "_wdt" (parameters: {"_controller":"Symfony\\Bundle\\WebProfilerBundle\\Controller\\ProfilerController::toolbarAction","token":"4d6c3890b7892","_route":"_wdt"})
+2011-03-01T11:32:45+01:00 INFO: Using controller "Symfony\Bundle\WebProfilerBundle\Controller\ProfilerController::toolbarAction"
+2011-03-01T11:32:45+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T11:32:45+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T11:32:45+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T11:33:12+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T11:33:12+01:00 INFO: Matched route "user_profile" (parameters: {"_controller":"Sensio\\HelloBundle\\Controller\\UserController::profileEditFormAction","slug":"l3l0","_route":"user_profile"})
+2011-03-01T11:33:12+01:00 INFO: Using controller "Sensio\HelloBundle\Controller\UserController::profileEditFormAction"
+2011-03-01T11:33:12+01:00 INFO: MongoDB query: { "find": true, "query": { "slug": "l3l0" }, "fields": [ ], "db": "symfony_prod", "collection": "users" }
+2011-03-01T11:33:12+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T11:33:12+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T11:33:12+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T11:33:12+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T11:33:12+01:00 INFO: Matched route "_wdt" (parameters: {"_controller":"Symfony\\Bundle\\WebProfilerBundle\\Controller\\ProfilerController::toolbarAction","token":"4d6ccb68324e0","_route":"_wdt"})
+2011-03-01T11:33:12+01:00 INFO: Using controller "Symfony\Bundle\WebProfilerBundle\Controller\ProfilerController::toolbarAction"
+2011-03-01T11:33:12+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T11:33:12+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T11:33:12+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T11:34:07+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T11:34:07+01:00 INFO: Matched route "user_profile" (parameters: {"_controller":"Sensio\\HelloBundle\\Controller\\UserController::profileEditFormAction","slug":"l3l0","_route":"user_profile"})
+2011-03-01T11:34:07+01:00 INFO: Using controller "Sensio\HelloBundle\Controller\UserController::profileEditFormAction"
+2011-03-01T11:34:08+01:00 INFO: MongoDB query: { "find": true, "query": { "slug": "l3l0" }, "fields": [ ], "db": "symfony_prod", "collection": "users" }
+2011-03-01T11:34:08+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T11:34:08+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T11:34:08+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T11:34:08+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T11:34:08+01:00 INFO: Matched route "_wdt" (parameters: {"_controller":"Symfony\\Bundle\\WebProfilerBundle\\Controller\\ProfilerController::toolbarAction","token":"4d6ccba011777","_route":"_wdt"})
+2011-03-01T11:34:08+01:00 INFO: Using controller "Symfony\Bundle\WebProfilerBundle\Controller\ProfilerController::toolbarAction"
+2011-03-01T11:34:08+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T11:34:08+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T11:34:08+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T11:34:09+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T11:34:09+01:00 INFO: Matched route "user_profile" (parameters: {"_controller":"Sensio\\HelloBundle\\Controller\\UserController::profileEditFormAction","slug":"l3l0","_route":"user_profile"})
+2011-03-01T11:34:09+01:00 INFO: Using controller "Sensio\HelloBundle\Controller\UserController::profileEditFormAction"
+2011-03-01T11:34:09+01:00 INFO: MongoDB query: { "find": true, "query": { "slug": "l3l0" }, "fields": [ ], "db": "symfony_prod", "collection": "users" }
+2011-03-01T11:34:09+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T11:34:09+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T11:34:10+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T11:34:10+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T11:34:10+01:00 INFO: Matched route "_wdt" (parameters: {"_controller":"Symfony\\Bundle\\WebProfilerBundle\\Controller\\ProfilerController::toolbarAction","token":"4d6ccba1cf628","_route":"_wdt"})
+2011-03-01T11:34:10+01:00 INFO: Using controller "Symfony\Bundle\WebProfilerBundle\Controller\ProfilerController::toolbarAction"
+2011-03-01T11:34:10+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T11:34:10+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T11:34:10+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T11:34:25+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T11:34:25+01:00 INFO: Matched route "user_profile" (parameters: {"_controller":"Sensio\\HelloBundle\\Controller\\UserController::profileEditFormAction","slug":"l3l0","_route":"user_profile"})
+2011-03-01T11:34:25+01:00 INFO: Using controller "Sensio\HelloBundle\Controller\UserController::profileEditFormAction"
+2011-03-01T11:34:26+01:00 INFO: MongoDB query: { "find": true, "query": { "slug": "l3l0" }, "fields": [ ], "db": "symfony_prod", "collection": "users" }
+2011-03-01T11:34:26+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T11:34:26+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T11:34:26+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T11:34:26+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T11:34:26+01:00 INFO: Matched route "_wdt" (parameters: {"_controller":"Symfony\\Bundle\\WebProfilerBundle\\Controller\\ProfilerController::toolbarAction","token":"4d6ccbb21237c","_route":"_wdt"})
+2011-03-01T11:34:26+01:00 INFO: Using controller "Symfony\Bundle\WebProfilerBundle\Controller\ProfilerController::toolbarAction"
+2011-03-01T11:34:26+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T11:34:26+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T11:34:26+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T11:44:38+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T11:44:38+01:00 INFO: Matched route "_profiler" (parameters: {"_controller":"Symfony\\Bundle\\WebProfilerBundle\\Controller\\ProfilerController::panelAction","token":"4d6ccba1cf628","_route":"_profiler"})
+2011-03-01T11:44:38+01:00 INFO: Using controller "Symfony\Bundle\WebProfilerBundle\Controller\ProfilerController::panelAction"
+2011-03-01T11:44:38+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T11:44:38+01:00 INFO: Using controller "Symfony\Bundle\WebProfilerBundle\Controller\ProfilerController::toolbarAction"
+2011-03-01T11:44:39+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T11:44:39+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T11:44:39+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T11:44:39+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T11:44:39+01:00 INFO: Using controller "Symfony\Bundle\WebProfilerBundle\Controller\ProfilerController::searchBarAction"
+2011-03-01T11:44:39+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T11:44:39+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T11:44:39+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T11:44:39+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T11:44:39+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T11:44:39+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T11:44:48+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T11:44:48+01:00 INFO: Matched route "_profiler" (parameters: {"_controller":"Symfony\\Bundle\\WebProfilerBundle\\Controller\\ProfilerController::panelAction","token":"4d6ccba1cf628","_route":"_profiler"})
+2011-03-01T11:44:48+01:00 INFO: Using controller "Symfony\Bundle\WebProfilerBundle\Controller\ProfilerController::panelAction"
+2011-03-01T11:44:48+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T11:44:48+01:00 INFO: Using controller "Symfony\Bundle\WebProfilerBundle\Controller\ProfilerController::toolbarAction"
+2011-03-01T11:44:48+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T11:44:48+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T11:44:48+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T11:44:48+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T11:44:48+01:00 INFO: Using controller "Symfony\Bundle\WebProfilerBundle\Controller\ProfilerController::searchBarAction"
+2011-03-01T11:44:48+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T11:44:48+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T11:44:48+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T11:44:48+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T11:44:48+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T11:44:48+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T11:44:54+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T11:44:54+01:00 INFO: Matched route "_profiler_panel" (parameters: {"_controller":"Symfony\\Bundle\\WebProfilerBundle\\Controller\\ProfilerController::panelAction","token":"4d6ccba1cf628","panel":"logger","_route":"_profiler_panel"})
+2011-03-01T11:44:54+01:00 INFO: Using controller "Symfony\Bundle\WebProfilerBundle\Controller\ProfilerController::panelAction"
+2011-03-01T11:44:54+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T11:44:54+01:00 INFO: Using controller "Symfony\Bundle\WebProfilerBundle\Controller\ProfilerController::toolbarAction"
+2011-03-01T11:44:54+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T11:44:54+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T11:44:54+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T11:44:54+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T11:44:54+01:00 INFO: Using controller "Symfony\Bundle\WebProfilerBundle\Controller\ProfilerController::searchBarAction"
+2011-03-01T11:44:54+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T11:44:54+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T11:44:54+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T11:44:54+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T11:44:54+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T11:44:54+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T11:44:56+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T11:44:56+01:00 INFO: Matched route "_profiler_panel" (parameters: {"_controller":"Symfony\\Bundle\\WebProfilerBundle\\Controller\\ProfilerController::panelAction","token":"4d6ccba1cf628","panel":"events","_route":"_profiler_panel"})
+2011-03-01T11:44:56+01:00 INFO: Using controller "Symfony\Bundle\WebProfilerBundle\Controller\ProfilerController::panelAction"
+2011-03-01T11:44:56+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T11:44:56+01:00 INFO: Using controller "Symfony\Bundle\WebProfilerBundle\Controller\ProfilerController::toolbarAction"
+2011-03-01T11:44:56+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T11:44:56+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T11:44:56+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T11:44:56+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T11:44:56+01:00 INFO: Using controller "Symfony\Bundle\WebProfilerBundle\Controller\ProfilerController::searchBarAction"
+2011-03-01T11:44:56+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T11:44:56+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T11:44:56+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T11:44:56+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T11:44:56+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T11:44:56+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T11:44:59+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T11:45:00+01:00 INFO: Matched route "_profiler_panel" (parameters: {"_controller":"Symfony\\Bundle\\WebProfilerBundle\\Controller\\ProfilerController::panelAction","token":"4d6ccba1cf628","panel":"exception","_route":"_profiler_panel"})
+2011-03-01T11:45:00+01:00 INFO: Using controller "Symfony\Bundle\WebProfilerBundle\Controller\ProfilerController::panelAction"
+2011-03-01T11:45:00+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T11:45:00+01:00 INFO: Using controller "Symfony\Bundle\WebProfilerBundle\Controller\ProfilerController::toolbarAction"
+2011-03-01T11:45:00+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T11:45:00+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T11:45:00+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T11:45:00+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T11:45:00+01:00 INFO: Using controller "Symfony\Bundle\WebProfilerBundle\Controller\ProfilerController::searchBarAction"
+2011-03-01T11:45:00+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T11:45:00+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T11:45:00+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T11:45:00+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T11:45:00+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T11:45:00+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T11:45:02+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T11:45:02+01:00 INFO: Matched route "_profiler_panel" (parameters: {"_controller":"Symfony\\Bundle\\WebProfilerBundle\\Controller\\ProfilerController::panelAction","token":"4d6ccba1cf628","panel":"mongodb","_route":"_profiler_panel"})
+2011-03-01T11:45:02+01:00 INFO: Using controller "Symfony\Bundle\WebProfilerBundle\Controller\ProfilerController::panelAction"
+2011-03-01T11:45:02+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T11:45:02+01:00 INFO: Using controller "Symfony\Bundle\WebProfilerBundle\Controller\ProfilerController::toolbarAction"
+2011-03-01T11:45:02+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T11:45:02+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T11:45:02+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T11:45:02+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T11:45:02+01:00 INFO: Using controller "Symfony\Bundle\WebProfilerBundle\Controller\ProfilerController::searchBarAction"
+2011-03-01T11:45:02+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T11:45:02+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T11:45:02+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T11:45:02+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T11:45:02+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T11:45:02+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T11:47:35+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T11:47:35+01:00 INFO: Matched route "user_profile" (parameters: {"_controller":"Sensio\\HelloBundle\\Controller\\UserController::profileEditFormAction","slug":"l3l0","_route":"user_profile"})
+2011-03-01T11:47:35+01:00 INFO: Using controller "Sensio\HelloBundle\Controller\UserController::profileEditFormAction"
+2011-03-01T11:47:35+01:00 INFO: MongoDB query: { "find": true, "query": { "slug": "l3l0" }, "fields": [ ], "db": "symfony_prod", "collection": "users" }
+2011-03-01T11:47:35+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T11:47:35+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T11:47:35+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T11:47:35+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T11:47:35+01:00 INFO: Matched route "_wdt" (parameters: {"_controller":"Symfony\\Bundle\\WebProfilerBundle\\Controller\\ProfilerController::toolbarAction","token":"4d6ccec7ab559","_route":"_wdt"})
+2011-03-01T11:47:35+01:00 INFO: Using controller "Symfony\Bundle\WebProfilerBundle\Controller\ProfilerController::toolbarAction"
+2011-03-01T11:47:35+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T11:47:35+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T11:47:35+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T11:48:25+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T11:48:25+01:00 INFO: Matched route "user_profile" (parameters: {"_controller":"Sensio\\HelloBundle\\Controller\\UserController::profileEditFormAction","slug":"l3l0","_route":"user_profile"})
+2011-03-01T11:48:25+01:00 INFO: Using controller "Sensio\HelloBundle\Controller\UserController::profileEditFormAction"
+2011-03-01T11:48:25+01:00 INFO: MongoDB query: { "find": true, "query": { "slug": "l3l0" }, "fields": [ ], "db": "symfony_prod", "collection": "users" }
+2011-03-01T11:48:25+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T11:48:25+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T11:48:25+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T11:48:25+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T11:48:25+01:00 INFO: Matched route "_wdt" (parameters: {"_controller":"Symfony\\Bundle\\WebProfilerBundle\\Controller\\ProfilerController::toolbarAction","token":"4d6ccef94250f","_route":"_wdt"})
+2011-03-01T11:48:25+01:00 INFO: Using controller "Symfony\Bundle\WebProfilerBundle\Controller\ProfilerController::toolbarAction"
+2011-03-01T11:48:25+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T11:48:25+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T11:48:25+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T11:51:46+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T11:51:46+01:00 INFO: Matched route "user_profile" (parameters: {"_controller":"Sensio\\HelloBundle\\Controller\\UserController::profileEditFormAction","slug":"l3l0","_route":"user_profile"})
+2011-03-01T11:51:46+01:00 INFO: Using controller "Sensio\HelloBundle\Controller\UserController::profileEditFormAction"
+2011-03-01T11:51:46+01:00 INFO: MongoDB query: { "find": true, "query": { "slug": "l3l0" }, "fields": [ ], "db": "symfony_prod", "collection": "users" }
+2011-03-01T11:51:46+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T11:51:46+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T11:51:46+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T11:51:46+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T11:51:46+01:00 INFO: Matched route "_wdt" (parameters: {"_controller":"Symfony\\Bundle\\WebProfilerBundle\\Controller\\ProfilerController::toolbarAction","token":"4d6ccfc263f02","_route":"_wdt"})
+2011-03-01T11:51:46+01:00 INFO: Using controller "Symfony\Bundle\WebProfilerBundle\Controller\ProfilerController::toolbarAction"
+2011-03-01T11:51:46+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T11:51:46+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T11:51:46+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T11:51:55+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T11:51:55+01:00 INFO: Matched route "user_profile" (parameters: {"_controller":"Sensio\\HelloBundle\\Controller\\UserController::profileEditFormAction","slug":"l3l0","_route":"user_profile"})
+2011-03-01T11:51:55+01:00 INFO: Using controller "Sensio\HelloBundle\Controller\UserController::profileEditFormAction"
+2011-03-01T11:51:55+01:00 INFO: MongoDB query: { "find": true, "query": { "slug": "l3l0" }, "fields": [ ], "db": "symfony_prod", "collection": "users" }
+2011-03-01T11:51:55+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T11:51:55+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T11:51:55+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T11:51:55+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T11:51:55+01:00 INFO: Matched route "_wdt" (parameters: {"_controller":"Symfony\\Bundle\\WebProfilerBundle\\Controller\\ProfilerController::toolbarAction","token":"4d6ccfcb8237c","_route":"_wdt"})
+2011-03-01T11:51:55+01:00 INFO: Using controller "Symfony\Bundle\WebProfilerBundle\Controller\ProfilerController::toolbarAction"
+2011-03-01T11:51:55+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T11:51:55+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T11:51:55+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T11:53:10+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T11:53:10+01:00 INFO: Matched route "user_profile" (parameters: {"_controller":"Sensio\\HelloBundle\\Controller\\UserController::profileEditFormAction","slug":"l3l0","_route":"user_profile"})
+2011-03-01T11:53:10+01:00 INFO: Using controller "Sensio\HelloBundle\Controller\UserController::profileEditFormAction"
+2011-03-01T11:53:10+01:00 INFO: MongoDB query: { "find": true, "query": { "slug": "l3l0" }, "fields": [ ], "db": "symfony_prod", "collection": "users" }
+2011-03-01T11:53:45+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T11:53:45+01:00 INFO: Matched route "user_profile" (parameters: {"_controller":"Sensio\\HelloBundle\\Controller\\UserController::profileEditFormAction","slug":"l3l0","_route":"user_profile"})
+2011-03-01T11:53:45+01:00 INFO: Using controller "Sensio\HelloBundle\Controller\UserController::profileEditFormAction"
+2011-03-01T11:53:45+01:00 INFO: MongoDB query: { "find": true, "query": { "slug": "l3l0" }, "fields": [ ], "db": "symfony_prod", "collection": "users" }
+2011-03-01T11:53:45+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T11:53:45+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T11:53:46+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T11:53:46+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T11:53:46+01:00 INFO: Matched route "_wdt" (parameters: {"_controller":"Symfony\\Bundle\\WebProfilerBundle\\Controller\\ProfilerController::toolbarAction","token":"4d6cd039cbc3c","_route":"_wdt"})
+2011-03-01T11:53:46+01:00 INFO: Using controller "Symfony\Bundle\WebProfilerBundle\Controller\ProfilerController::toolbarAction"
+2011-03-01T11:53:46+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T11:53:46+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T11:53:46+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T11:53:48+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T11:53:48+01:00 INFO: Matched route "user_profile" (parameters: {"_controller":"Sensio\\HelloBundle\\Controller\\UserController::profileEditFormAction","slug":"l3l0","_route":"user_profile"})
+2011-03-01T11:53:48+01:00 INFO: Using controller "Sensio\HelloBundle\Controller\UserController::profileEditFormAction"
+2011-03-01T11:53:48+01:00 INFO: MongoDB query: { "find": true, "query": { "slug": "l3l0" }, "fields": [ ], "db": "symfony_prod", "collection": "users" }
+2011-03-01T11:53:49+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T11:53:49+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T11:53:49+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T11:53:49+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T11:53:49+01:00 INFO: Matched route "_wdt" (parameters: {"_controller":"Symfony\\Bundle\\WebProfilerBundle\\Controller\\ProfilerController::toolbarAction","token":"4d6cd03d13f13","_route":"_wdt"})
+2011-03-01T11:53:49+01:00 INFO: Using controller "Symfony\Bundle\WebProfilerBundle\Controller\ProfilerController::toolbarAction"
+2011-03-01T11:53:49+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T11:53:49+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T11:53:49+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T11:54:41+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T11:54:41+01:00 INFO: Matched route "user_profile" (parameters: {"_controller":"Sensio\\HelloBundle\\Controller\\UserController::profileEditFormAction","slug":"l3l0","_route":"user_profile"})
+2011-03-01T11:54:41+01:00 INFO: Using controller "Sensio\HelloBundle\Controller\UserController::profileEditFormAction"
+2011-03-01T11:54:41+01:00 INFO: MongoDB query: { "find": true, "query": { "slug": "l3l0" }, "fields": [ ], "db": "symfony_prod", "collection": "users" }
+2011-03-01T11:54:41+01:00 DEBUG: Notified event "core.exception" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleException" (notifyUntil)
+2011-03-01T11:54:41+01:00 DEBUG: Notified event "core.exception" to listener "Symfony\Component\HttpKernel\Debug\ExceptionListener::handle" (notifyUntil)
+2011-03-01T11:54:41+01:00 ERR: Twig_Error_Syntax: The function "hidden_field" does not exist at line 7 (uncaught exception)
+2011-03-01T11:54:41+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T11:54:41+01:00 INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction"
+2011-03-01T11:54:42+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T11:54:42+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T11:54:42+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T11:54:42+01:00 DEBUG: Listener "Symfony\Component\HttpKernel\Debug\ExceptionListener::handle" processed the event "core.exception"
+2011-03-01T11:54:42+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T11:54:42+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T11:54:42+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T11:54:42+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T11:54:42+01:00 INFO: Matched route "_wdt" (parameters: {"_controller":"Symfony\\Bundle\\WebProfilerBundle\\Controller\\ProfilerController::toolbarAction","token":"4d6cd0721a6d0","_route":"_wdt"})
+2011-03-01T11:54:42+01:00 INFO: Using controller "Symfony\Bundle\WebProfilerBundle\Controller\ProfilerController::toolbarAction"
+2011-03-01T11:54:42+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T11:54:42+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T11:54:42+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T11:54:50+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T11:54:50+01:00 INFO: Matched route "user_profile" (parameters: {"_controller":"Sensio\\HelloBundle\\Controller\\UserController::profileEditFormAction","slug":"l3l0","_route":"user_profile"})
+2011-03-01T11:54:50+01:00 INFO: Using controller "Sensio\HelloBundle\Controller\UserController::profileEditFormAction"
+2011-03-01T11:54:50+01:00 INFO: MongoDB query: { "find": true, "query": { "slug": "l3l0" }, "fields": [ ], "db": "symfony_prod", "collection": "users" }
+2011-03-01T11:54:50+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T11:54:50+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T11:54:51+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T11:54:51+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T11:54:51+01:00 INFO: Matched route "_wdt" (parameters: {"_controller":"Symfony\\Bundle\\WebProfilerBundle\\Controller\\ProfilerController::toolbarAction","token":"4d6cd07ade9ff","_route":"_wdt"})
+2011-03-01T11:54:51+01:00 INFO: Using controller "Symfony\Bundle\WebProfilerBundle\Controller\ProfilerController::toolbarAction"
+2011-03-01T11:54:51+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T11:54:51+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T11:54:51+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T12:01:29+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T12:01:29+01:00 INFO: Matched route "user_profile" (parameters: {"_controller":"Sensio\\HelloBundle\\Controller\\UserController::profileEditFormAction","slug":"l3l0","_route":"user_profile"})
+2011-03-01T12:01:29+01:00 INFO: Using controller "Sensio\HelloBundle\Controller\UserController::profileEditFormAction"
+2011-03-01T12:01:29+01:00 INFO: MongoDB query: { "find": true, "query": { "slug": "l3l0" }, "fields": [ ], "db": "symfony_prod", "collection": "users" }
+2011-03-01T12:01:29+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T12:01:29+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T12:01:29+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T12:01:29+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T12:01:29+01:00 INFO: Matched route "_wdt" (parameters: {"_controller":"Symfony\\Bundle\\WebProfilerBundle\\Controller\\ProfilerController::toolbarAction","token":"4d6cd2095b5a6","_route":"_wdt"})
+2011-03-01T12:01:29+01:00 INFO: Using controller "Symfony\Bundle\WebProfilerBundle\Controller\ProfilerController::toolbarAction"
+2011-03-01T12:01:29+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T12:01:29+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T12:01:29+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T12:02:09+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T12:02:09+01:00 INFO: Matched route "user_profile" (parameters: {"_controller":"Sensio\\HelloBundle\\Controller\\UserController::profileEditFormAction","slug":"l3l0","_route":"user_profile"})
+2011-03-01T12:02:09+01:00 INFO: Using controller "Sensio\HelloBundle\Controller\UserController::profileEditFormAction"
+2011-03-01T12:02:09+01:00 INFO: MongoDB query: { "find": true, "query": { "slug": "l3l0" }, "fields": [ ], "db": "symfony_prod", "collection": "users" }
+2011-03-01T12:02:09+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T12:02:09+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T12:02:10+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T12:02:10+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T12:02:10+01:00 INFO: Matched route "_wdt" (parameters: {"_controller":"Symfony\\Bundle\\WebProfilerBundle\\Controller\\ProfilerController::toolbarAction","token":"4d6cd231d33c4","_route":"_wdt"})
+2011-03-01T12:02:10+01:00 INFO: Using controller "Symfony\Bundle\WebProfilerBundle\Controller\ProfilerController::toolbarAction"
+2011-03-01T12:02:10+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T12:02:10+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T12:02:10+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T12:02:23+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T12:02:23+01:00 INFO: Matched route "user_profile" (parameters: {"_controller":"Sensio\\HelloBundle\\Controller\\UserController::profileEditFormAction","slug":"l3l0","_route":"user_profile"})
+2011-03-01T12:02:23+01:00 INFO: Using controller "Sensio\HelloBundle\Controller\UserController::profileEditFormAction"
+2011-03-01T12:02:23+01:00 INFO: MongoDB query: { "find": true, "query": { "slug": "l3l0" }, "fields": [ ], "db": "symfony_prod", "collection": "users" }
+2011-03-01T12:02:23+01:00 INFO: MongoDB query: { "update": true, "query": { "_id": ObjectId("4d6ccfb3b21075876c0ed725") }, "newObj": { "$set": { "firstname": "Leszek", "lastname": "Pr", "email": "leszek.prabucki@goyello.com", "age": "24" } }, "options": [ ], "db": "symfony_prod", "collection": "users" }
+2011-03-01T12:02:23+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T12:02:23+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T12:02:23+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T12:02:24+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T12:02:24+01:00 INFO: Matched route "_wdt" (parameters: {"_controller":"Symfony\\Bundle\\WebProfilerBundle\\Controller\\ProfilerController::toolbarAction","token":"4d6cd23f9b280","_route":"_wdt"})
+2011-03-01T12:02:24+01:00 INFO: Using controller "Symfony\Bundle\WebProfilerBundle\Controller\ProfilerController::toolbarAction"
+2011-03-01T12:02:24+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T12:02:24+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T12:02:24+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T12:02:30+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T12:02:30+01:00 INFO: Matched route "user_profile" (parameters: {"_controller":"Sensio\\HelloBundle\\Controller\\UserController::profileEditFormAction","slug":"l3l0","_route":"user_profile"})
+2011-03-01T12:02:30+01:00 INFO: Using controller "Sensio\HelloBundle\Controller\UserController::profileEditFormAction"
+2011-03-01T12:02:30+01:00 INFO: MongoDB query: { "find": true, "query": { "slug": "l3l0" }, "fields": [ ], "db": "symfony_prod", "collection": "users" }
+2011-03-01T12:02:30+01:00 INFO: MongoDB query: { "update": true, "query": { "_id": ObjectId("4d6ccfb3b21075876c0ed725") }, "newObj": { "$set": { "lastname": "Prabucki" } }, "options": [ ], "db": "symfony_prod", "collection": "users" }
+2011-03-01T12:02:30+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T12:02:30+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T12:02:30+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)
+2011-03-01T12:02:30+01:00 DEBUG: Notified event "core.request" to listener "Symfony\Bundle\FrameworkBundle\RequestListener::handle" (notifyUntil)
+2011-03-01T12:02:30+01:00 INFO: Matched route "_wdt" (parameters: {"_controller":"Symfony\\Bundle\\WebProfilerBundle\\Controller\\ProfilerController::toolbarAction","token":"4d6cd246a7f2c","_route":"_wdt"})
+2011-03-01T12:02:30+01:00 INFO: Using controller "Symfony\Bundle\WebProfilerBundle\Controller\ProfilerController::toolbarAction"
+2011-03-01T12:02:30+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Component\HttpKernel\ResponseListener::filter" (filter)
+2011-03-01T12:02:30+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\FrameworkBundle\Profiler\ProfilerListener::handleResponse" (filter)
+2011-03-01T12:02:30+01:00 DEBUG: Notified event "core.response" to listener "Symfony\Bundle\WebProfilerBundle\WebDebugToolbarListener::handle" (filter)

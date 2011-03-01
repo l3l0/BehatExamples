@@ -1,0 +1,11 @@
+homepage:
+    pattern:  /
+    defaults: { _controller: HelloBundle:Hello:welcome }
+
+hello:
+    pattern:  /hello/{name}
+    defaults: { _controller: HelloBundle:Hello:index }
+
+user_profile:
+    pattern: /user/profile/{slug}
+    defaults: { _controller: HelloBundle:User:profileEditForm }
